@@ -99,7 +99,7 @@ class MatrixTransformDemoState extends State<MatrixTransformDemo> {
                             Radius.circular(10.0),
                           ),
                         ),
-                        child: Text(
+                        child: SelectableText(
                           '''Matrix4.identity()
  ..translate(${translateX.toStringAsFixed(2)} * 100,  ${translateY.toStringAsFixed(2)} * 100,  ${translateZ.toStringAsFixed(2)} * 100)
  ..scale(${scaleX.toStringAsFixed(2)},  ${scaleY.toStringAsFixed(2)},  ${scaleZ.toStringAsFixed(2)})
